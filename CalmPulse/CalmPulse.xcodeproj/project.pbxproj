@@ -1,0 +1,1016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92A186792E0FD04200967240 /* CalmPulse Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 92A186782E0FD04200967240 /* CalmPulse Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92A1867A2E0FD04200967240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92A1866C2E0FD04200967240 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92A186772E0FD04200967240;
+			remoteInfo = "CalmPulse Watch App";
+		};
+		92A186882E0FD04400967240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92A1866C2E0FD04200967240 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92A186772E0FD04200967240;
+			remoteInfo = "CalmPulse Watch App";
+		};
+		92A186922E0FD04400967240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92A1866C2E0FD04200967240 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92A186772E0FD04200967240;
+			remoteInfo = "CalmPulse Watch App";
+		};
+		92C2596C2E0FD75F0065B122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92A1866C2E0FD04200967240 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92C2595E2E0FD75E0065B122;
+			remoteInfo = CalmPulseIOS;
+		};
+		92C259762E0FD75F0065B122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92A1866C2E0FD04200967240 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92C2595E2E0FD75E0065B122;
+			remoteInfo = CalmPulseIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		92A1869E2E0FD04400967240 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				92A186792E0FD04200967240 /* CalmPulse Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		92A186722E0FD04200967240 /* CalmPulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalmPulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A186782E0FD04200967240 /* CalmPulse Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalmPulse Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A186872E0FD04400967240 /* CalmPulse Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CalmPulse Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A186912E0FD04400967240 /* CalmPulse Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CalmPulse Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C2595F2E0FD75E0065B122 /* CalmPulseIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalmPulseIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C2596B2E0FD75F0065B122 /* CalmPulseIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalmPulseIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C259752E0FD75F0065B122 /* CalmPulseIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalmPulseIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		92A1867C2E0FD04200967240 /* CalmPulse Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "CalmPulse Watch App";
+			sourceTree = "<group>";
+		};
+		92A1868A2E0FD04400967240 /* CalmPulse Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "CalmPulse Watch AppTests";
+			sourceTree = "<group>";
+		};
+		92A186942E0FD04400967240 /* CalmPulse Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "CalmPulse Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		92C259602E0FD75E0065B122 /* CalmPulseIOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CalmPulseIOS;
+			sourceTree = "<group>";
+		};
+		92C2596E2E0FD75F0065B122 /* CalmPulseIOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CalmPulseIOSTests;
+			sourceTree = "<group>";
+		};
+		92C259782E0FD75F0065B122 /* CalmPulseIOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CalmPulseIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92A186752E0FD04200967240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A186842E0FD04400967240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A1868E2E0FD04400967240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C2595C2E0FD75E0065B122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C259682E0FD75F0065B122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C259722E0FD75F0065B122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92A1866B2E0FD04200967240 = {
+			isa = PBXGroup;
+			children = (
+				92A1867C2E0FD04200967240 /* CalmPulse Watch App */,
+				92A1868A2E0FD04400967240 /* CalmPulse Watch AppTests */,
+				92A186942E0FD04400967240 /* CalmPulse Watch AppUITests */,
+				92C259602E0FD75E0065B122 /* CalmPulseIOS */,
+				92C2596E2E0FD75F0065B122 /* CalmPulseIOSTests */,
+				92C259782E0FD75F0065B122 /* CalmPulseIOSUITests */,
+				92A186732E0FD04200967240 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92A186732E0FD04200967240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92A186722E0FD04200967240 /* CalmPulse.app */,
+				92A186782E0FD04200967240 /* CalmPulse Watch App.app */,
+				92A186872E0FD04400967240 /* CalmPulse Watch AppTests.xctest */,
+				92A186912E0FD04400967240 /* CalmPulse Watch AppUITests.xctest */,
+				92C2595F2E0FD75E0065B122 /* CalmPulseIOS.app */,
+				92C2596B2E0FD75F0065B122 /* CalmPulseIOSTests.xctest */,
+				92C259752E0FD75F0065B122 /* CalmPulseIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92A186712E0FD04200967240 /* CalmPulse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A1869F2E0FD04400967240 /* Build configuration list for PBXNativeTarget "CalmPulse" */;
+			buildPhases = (
+				92A186702E0FD04200967240 /* Resources */,
+				92A1869E2E0FD04400967240 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92A1867B2E0FD04200967240 /* PBXTargetDependency */,
+			);
+			name = CalmPulse;
+			packageProductDependencies = (
+			);
+			productName = CalmPulse;
+			productReference = 92A186722E0FD04200967240 /* CalmPulse.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		92A186772E0FD04200967240 /* CalmPulse Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A1869B2E0FD04400967240 /* Build configuration list for PBXNativeTarget "CalmPulse Watch App" */;
+			buildPhases = (
+				92A186742E0FD04200967240 /* Sources */,
+				92A186752E0FD04200967240 /* Frameworks */,
+				92A186762E0FD04200967240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				92A1867C2E0FD04200967240 /* CalmPulse Watch App */,
+			);
+			name = "CalmPulse Watch App";
+			packageProductDependencies = (
+			);
+			productName = "CalmPulse Watch App";
+			productReference = 92A186782E0FD04200967240 /* CalmPulse Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92A186862E0FD04400967240 /* CalmPulse Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A186A22E0FD04400967240 /* Build configuration list for PBXNativeTarget "CalmPulse Watch AppTests" */;
+			buildPhases = (
+				92A186832E0FD04400967240 /* Sources */,
+				92A186842E0FD04400967240 /* Frameworks */,
+				92A186852E0FD04400967240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92A186892E0FD04400967240 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				92A1868A2E0FD04400967240 /* CalmPulse Watch AppTests */,
+			);
+			name = "CalmPulse Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "CalmPulse Watch AppTests";
+			productReference = 92A186872E0FD04400967240 /* CalmPulse Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92A186902E0FD04400967240 /* CalmPulse Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A186A52E0FD04400967240 /* Build configuration list for PBXNativeTarget "CalmPulse Watch AppUITests" */;
+			buildPhases = (
+				92A1868D2E0FD04400967240 /* Sources */,
+				92A1868E2E0FD04400967240 /* Frameworks */,
+				92A1868F2E0FD04400967240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92A186932E0FD04400967240 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				92A186942E0FD04400967240 /* CalmPulse Watch AppUITests */,
+			);
+			name = "CalmPulse Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "CalmPulse Watch AppUITests";
+			productReference = 92A186912E0FD04400967240 /* CalmPulse Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		92C2595E2E0FD75E0065B122 /* CalmPulseIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C259832E0FD75F0065B122 /* Build configuration list for PBXNativeTarget "CalmPulseIOS" */;
+			buildPhases = (
+				92C2595B2E0FD75E0065B122 /* Sources */,
+				92C2595C2E0FD75E0065B122 /* Frameworks */,
+				92C2595D2E0FD75E0065B122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				92C259602E0FD75E0065B122 /* CalmPulseIOS */,
+			);
+			name = CalmPulseIOS;
+			packageProductDependencies = (
+			);
+			productName = CalmPulseIOS;
+			productReference = 92C2595F2E0FD75E0065B122 /* CalmPulseIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92C2596A2E0FD75F0065B122 /* CalmPulseIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C259842E0FD75F0065B122 /* Build configuration list for PBXNativeTarget "CalmPulseIOSTests" */;
+			buildPhases = (
+				92C259672E0FD75F0065B122 /* Sources */,
+				92C259682E0FD75F0065B122 /* Frameworks */,
+				92C259692E0FD75F0065B122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92C2596D2E0FD75F0065B122 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				92C2596E2E0FD75F0065B122 /* CalmPulseIOSTests */,
+			);
+			name = CalmPulseIOSTests;
+			packageProductDependencies = (
+			);
+			productName = CalmPulseIOSTests;
+			productReference = 92C2596B2E0FD75F0065B122 /* CalmPulseIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92C259742E0FD75F0065B122 /* CalmPulseIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C259852E0FD75F0065B122 /* Build configuration list for PBXNativeTarget "CalmPulseIOSUITests" */;
+			buildPhases = (
+				92C259712E0FD75F0065B122 /* Sources */,
+				92C259722E0FD75F0065B122 /* Frameworks */,
+				92C259732E0FD75F0065B122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92C259772E0FD75F0065B122 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				92C259782E0FD75F0065B122 /* CalmPulseIOSUITests */,
+			);
+			name = CalmPulseIOSUITests;
+			packageProductDependencies = (
+			);
+			productName = CalmPulseIOSUITests;
+			productReference = 92C259752E0FD75F0065B122 /* CalmPulseIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92A1866C2E0FD04200967240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					92A186712E0FD04200967240 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					92A186772E0FD04200967240 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					92A186862E0FD04400967240 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 92A186772E0FD04200967240;
+					};
+					92A186902E0FD04400967240 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 92A186772E0FD04200967240;
+					};
+					92C2595E2E0FD75E0065B122 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					92C2596A2E0FD75F0065B122 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 92C2595E2E0FD75E0065B122;
+					};
+					92C259742E0FD75F0065B122 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 92C2595E2E0FD75E0065B122;
+					};
+				};
+			};
+			buildConfigurationList = 92A1866F2E0FD04200967240 /* Build configuration list for PBXProject "CalmPulse" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92A1866B2E0FD04200967240;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 92A186732E0FD04200967240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92A186712E0FD04200967240 /* CalmPulse */,
+				92A186772E0FD04200967240 /* CalmPulse Watch App */,
+				92A186862E0FD04400967240 /* CalmPulse Watch AppTests */,
+				92A186902E0FD04400967240 /* CalmPulse Watch AppUITests */,
+				92C2595E2E0FD75E0065B122 /* CalmPulseIOS */,
+				92C2596A2E0FD75F0065B122 /* CalmPulseIOSTests */,
+				92C259742E0FD75F0065B122 /* CalmPulseIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92A186702E0FD04200967240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A186762E0FD04200967240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A186852E0FD04400967240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A1868F2E0FD04400967240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C2595D2E0FD75E0065B122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C259692E0FD75F0065B122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C259732E0FD75F0065B122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92A186742E0FD04200967240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A186832E0FD04400967240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A1868D2E0FD04400967240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C2595B2E0FD75E0065B122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C259672E0FD75F0065B122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C259712E0FD75F0065B122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92A1867B2E0FD04200967240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92A186772E0FD04200967240 /* CalmPulse Watch App */;
+			targetProxy = 92A1867A2E0FD04200967240 /* PBXContainerItemProxy */;
+		};
+		92A186892E0FD04400967240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92A186772E0FD04200967240 /* CalmPulse Watch App */;
+			targetProxy = 92A186882E0FD04400967240 /* PBXContainerItemProxy */;
+		};
+		92A186932E0FD04400967240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92A186772E0FD04200967240 /* CalmPulse Watch App */;
+			targetProxy = 92A186922E0FD04400967240 /* PBXContainerItemProxy */;
+		};
+		92C2596D2E0FD75F0065B122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92C2595E2E0FD75E0065B122 /* CalmPulseIOS */;
+			targetProxy = 92C2596C2E0FD75F0065B122 /* PBXContainerItemProxy */;
+		};
+		92C259772E0FD75F0065B122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92C2595E2E0FD75E0065B122 /* CalmPulseIOS */;
+			targetProxy = 92C259762E0FD75F0065B122 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		92A186992E0FD04400967240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92A1869A2E0FD04400967240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		92A1869C2E0FD04400967240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CalmPulse;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cutie.CalmPulse.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		92A1869D2E0FD04400967240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CalmPulse;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cutie.CalmPulse.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		92A186A02E0FD04400967240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = CalmPulse;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cutie.CalmPulse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		92A186A12E0FD04400967240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = CalmPulse;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cutie.CalmPulse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92A186A32E0FD04400967240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cutie.CalmPulse-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalmPulse Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalmPulse Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		92A186A42E0FD04400967240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cutie.CalmPulse-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalmPulse Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalmPulse Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		92A186A62E0FD04400967240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cutie.CalmPulse-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "CalmPulse Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		92A186A72E0FD04400967240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cutie.CalmPulse-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "CalmPulse Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		92C2597D2E0FD75F0065B122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cutie.CalmPulseIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92C2597E2E0FD75F0065B122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cutie.CalmPulseIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92C2597F2E0FD75F0065B122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cutie.CalmPulseIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalmPulseIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalmPulseIOS";
+			};
+			name = Debug;
+		};
+		92C259802E0FD75F0065B122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cutie.CalmPulseIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalmPulseIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalmPulseIOS";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92C259812E0FD75F0065B122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cutie.CalmPulseIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalmPulseIOS;
+			};
+			name = Debug;
+		};
+		92C259822E0FD75F0065B122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cutie.CalmPulseIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalmPulseIOS;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92A1866F2E0FD04200967240 /* Build configuration list for PBXProject "CalmPulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A186992E0FD04400967240 /* Debug */,
+				92A1869A2E0FD04400967240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A1869B2E0FD04400967240 /* Build configuration list for PBXNativeTarget "CalmPulse Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A1869C2E0FD04400967240 /* Debug */,
+				92A1869D2E0FD04400967240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A1869F2E0FD04400967240 /* Build configuration list for PBXNativeTarget "CalmPulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A186A02E0FD04400967240 /* Debug */,
+				92A186A12E0FD04400967240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A186A22E0FD04400967240 /* Build configuration list for PBXNativeTarget "CalmPulse Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A186A32E0FD04400967240 /* Debug */,
+				92A186A42E0FD04400967240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A186A52E0FD04400967240 /* Build configuration list for PBXNativeTarget "CalmPulse Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A186A62E0FD04400967240 /* Debug */,
+				92A186A72E0FD04400967240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C259832E0FD75F0065B122 /* Build configuration list for PBXNativeTarget "CalmPulseIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C2597D2E0FD75F0065B122 /* Debug */,
+				92C2597E2E0FD75F0065B122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C259842E0FD75F0065B122 /* Build configuration list for PBXNativeTarget "CalmPulseIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C2597F2E0FD75F0065B122 /* Debug */,
+				92C259802E0FD75F0065B122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C259852E0FD75F0065B122 /* Build configuration list for PBXNativeTarget "CalmPulseIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C259812E0FD75F0065B122 /* Debug */,
+				92C259822E0FD75F0065B122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92A1866C2E0FD04200967240 /* Project object */;
+}
